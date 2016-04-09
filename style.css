@@ -1,8 +1,21 @@
 * {
-  font-size: 1.2em;
-  color: blue;
-  background-color: red;
+  font-size: 1em;
+  color: black;
+  background-color: white;
 }
-p {
-  background-color: gray;
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
+.dropcap {
+	width: 900px;
+	margin: 0 auto;
+}
+.dropcap p:first-of-type:first-letter {
+   float: left;
+   font-family: Times, serif;
+   font-size: 4em;
+   margin: 0 5px 0 0;
+   line-height: .7;
+
 }
